@@ -117,7 +117,7 @@
 					text = '';
 					modifiedColor = 160;
 				}
-				td = $('<td></td>').attr({"class": "date"});
+				var td = $('<td></td>').attr({"class": "date"});
 				td.append($('<span></span>').attr({
 						"class": "modified",
 						"title": formatted,
